@@ -2,7 +2,7 @@
 title: CuraDerme | Sua saúde é nossa prioridade!
 description: "Consultório de Enfermagem."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "curadermesi.com.br" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
@@ -16,15 +16,15 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: (82)9-9999-9999
-    emergency: (82) 9-9999-9999
-    email: email@email.com
-    address: Endereço
+    phone: 3621-3213
+    emergency: 9.9664-3110 / 9.8220-1412
+    email: curadermesi@hotmail.com
+    address: Av. Martins Viêira, 408, Santana do Ipanema
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+monday: 15:00 – 18:00
+tuesday-friday: 08:00 - 12:00 / 15:00 - 18:00
+saturday: 08:00 - 12:00
 
 # Testimonials
 testimonials:
@@ -33,16 +33,16 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: Av. Martins Viêira, 408, Santana do Ipanema - AL, 57500-000
     address_details: svg/min/logo.svg
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
-feed: yes
+facebook: 
+twitter: 
+instagram: http://instagram.com/curadermesi
+youtube: 
+skype: 
+feed: no
 
 # Footer
 copyright: © 2019 CuraDerme - Todos os direitos reservados
