@@ -8345,7 +8345,8 @@ strong {
 
 .hero {
     position: relative;
-    margin-top: 70px
+    margin-top: 70px;
+    height: 400px;
 }
 
 .hero .container-fluid {
