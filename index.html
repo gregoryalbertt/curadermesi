@@ -250,9 +250,34 @@ layout: default
 </div>
 <!-- End Gallery -->
 
-<!-- Start Map -->
+{% comment %} <!-- Start Map -->
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
-<!-- End Map -->
+<!-- End Map --> {% endcomment %}
+
+<h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -9.373955, lng: -37.241638};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 17, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHOjgpq9BUwoZNU-5odNd3XPyvfGpbTq0&callback=initMap">
+    </script>
+
 
 <div class="background_contact">
   <div class="container">
