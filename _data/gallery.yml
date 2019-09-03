@@ -1,31 +1,31 @@
-- image_thumb: 1.jpeg
+- image_thumb: 1-thumb.jpeg
   image_large: 1.jpeg
   image_alt: something meaningful
 
-- image_thumb: 9.jpeg
+- image_thumb: 9-thumb.jpeg
   image_large: 9.jpeg
   image_alt: something meaningful
 
-- image_thumb: 10.jpeg
+- image_thumb: 10-thumb.jpeg
   image_large: 10.jpeg
   image_alt: something meaningful
 
-- image_thumb: 4.jpeg
+- image_thumb: 4-thumb.jpeg
   image_large: 4.jpeg
   image_alt: something meaningful
 
-- image_thumb: 11.jpeg
+- image_thumb: 11-thumb.jpeg
   image_large: 11.jpeg
   image_alt: something meaningful
 
-- image_thumb: 12.jpeg
+- image_thumb: 12-thumb.jpeg
   image_large: 12.jpeg
   image_alt: something meaningful
 
-- image_thumb: 7.jpeg
+- image_thumb: 7-thumb.jpeg
   image_large: 7.jpeg
   image_alt: something meaningful
 
-- image_thumb: 8.jpeg
+- image_thumb: 8-thumb.jpeg
   image_large: 8.jpeg
   image_alt: something meaningful
